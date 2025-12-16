@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,7 +72,7 @@
         </div>
         <div class="nine columns main-description">
             <h1>Hoiyeong Jin</h1>
-            <p>PhD Candidates at KAIST</p>
+            <p>M.S./Ph.D Integrated Student at KAIST</p>
             <p>Graduate School of Artificial Intelligence</p>
             <p></p>
             <p>hy.jin [AT] kaist.ac.kr</p>
@@ -121,7 +123,8 @@
 <div class="docs-section" id="about">
   <h4>About</h4>
     <p>
-      Hi! I am a Ph.D candidate advised by Professor <a href="https://sites.google.com/site/jaegulchoo/"target="_blank">Jaegul Choo</a> at <a href="https://gsai.kaist.ac.kr/"target="_blank">KAIST Graduate School of AI</a> .
+      Hi! I am a M.S./Ph.D integrated student advised by Professor <a href="https://sites.google.com/site/jaegulchoo/"target="_blank">Jaegul Choo</a> at <a href="https://gsai.kaist.ac.kr/"target="_blank">KAIST Graduate School of AI</a>. <br>
+      My research focuses on generative models, with particular interests in <b>Image/Video Generation</b> and <b>Vision-Language-Action (VLA) models</b>. <br>
     </p>
 </div>
 
@@ -134,79 +137,49 @@
 
   <div class="tab-content">
     <div class="tab-pane active">
-      
+      {% for paper in site.data.publications.papers %}
+        {% if paper.selected == 'y' %}
         <div class="paper">
           <div class="row">
-            
+            {% if paper.thumbnail %}
               <div class="four columns">
-                <img class="u-max-full-width" style="border-radius: 1rem;" src="/assets/publications/2025_ICCV/thumb.png" alt="[C2] PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask thumbnail">
+                {% assign thumbnail_ext = paper.thumbnail | split: '.' | last | downcase %}
+                {% if thumbnail_ext == 'mp4' or thumbnail_ext == 'webm' or thumbnail_ext == 'mov' or thumbnail_ext == 'avi' %}
+                  <video class="u-max-full-width" style="border-radius: 1rem;" controls autoplay loop muted playsinline>
+                    <source src="{{ paper.thumbnail }}" type="video/{{ thumbnail_ext }}">
+                    Your browser does not support the video tag.
+                  </video>
+                {% elsif thumbnail_ext == 'pdf' %}
+                  <embed src="{{ paper.thumbnail }}" type="application/pdf" class="u-max-full-width" style="border-radius: 1rem; min-height: 200px;" />
+                {% else %}
+                  <img class="u-max-full-width" style="border-radius: 1rem;" src="{{ paper.thumbnail }}" alt="{{ paper.title }} thumbnail">
+                {% endif %}
               </div>
-            
+            {% endif %}
 
-            <div class="eight columns">
-              <p class="title"><b>[C2] PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask</b></p>
-              <p>Jeongho Kim*, <b>Hoiyeong Jin</b>*, Sunghyun Park, Jaegul Choo</p>
-              <p><i>Proceedings of the ieee/cvf international conference on computer vision (ICCV), 2025.</i></p>
+            <div class="{% if paper.thumbnail %}eight{% else %}twelve{% endif %} columns">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i></p>
               
               <div class="paper-buttons">
+                {% if paper.paper_pdf and paper.paper_pdf != "" %}
+                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                {% endif %}
                 
-                  <a class="button" href="https://arxiv.org/abs/2412.16978" target="_blank">Paper</a>
+                {% if paper.code and paper.code != "" %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
                 
-
-                
-
-                
-
-                
-
-                
-
-                
-                  <a class="button" href="https://github.com/rlawjdghek/PromptDresser" target="_blank">Code</a>
-                
-
-                
+                {% if paper.project_page and paper.project_page != "" %}
+                  <a class="button" href="{{ paper.project_page }}" target="_blank">Project</a>
+                {% endif %}
               </div>
             </div>
           </div> 
-        </div> 
-      
-        <div class="paper">
-          <div class="row">
-            
-              <div class="four columns">
-                <img class="u-max-full-width" style="border-radius: 1rem;" src="/assets/publications/2024_AAAI/thumb.png" alt="[C1] Descanning: From scanned to the original images with a color correction diffusion model thumbnail">
-              </div>
-            
-
-            <div class="eight columns">
-              <p class="title"><b>[C1] Descanning: From scanned to the original images with a color correction diffusion model</b></p>
-              <p>Junghun Cha, Ali Haider, Seoyun Yang, <b>Hoiyeong Jin</b>, Subin Yang, AFM Shahab Uddin, Jaehyoung Kim, Soo Ye Kim, Sung-Ho Bae</p>
-              <p><i>Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024.</i></p>
-              
-              <div class="paper-buttons">
-                
-                  <a class="button" href="https://arxiv.org/abs/2402.05350" target="_blank">Paper</a>
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-                  <a class="button" href="https://github.com/jhcha08/Descanning" target="_blank">Code</a>
-                
-
-                
-              </div>
-            </div>
-          </div> 
-        </div> 
-      
+        </div>
+        {% endif %}
+      {% endfor %}
     </div> 
   </div> 
 </div> 
@@ -218,7 +191,7 @@
     <div class="paper">
       <p class="title">
         <b>Korea Advanced Institute of Science and Technology (KAIST)</b>
-        <b style="float:right;">Feb. 2025 - Current</b>
+        <b style="float:right;">2025 - Current</b>
       </p>
       <p>Integrated M.S/Ph.D Student in Graduate School of Artificial Intelligence</p>
     </div>
@@ -226,7 +199,7 @@
     <div class="paper">
       <p class="title">
         <b>KyungHee University</b>
-        <b style="float:right;">Mar. 2019 - Mar. 2023</b>
+        <b style="float:right;">2019 - 2023</b>
       </p>
       <p>B.S. in Software Convergence</p>
     </div>

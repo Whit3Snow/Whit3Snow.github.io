@@ -35,7 +35,7 @@ More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPageP
 - JS
   - [Jquery (3.1.1)](https://jquery.com/)
 jekyll serve
-scp -r ./_site/* ../yapengtian.github.io
+scp -r ./_site/* ../myyzzzooo.github.io
 
 git add .
 git commit -m "xxx"
