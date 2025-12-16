@@ -1,7 +1,7 @@
 papers:
 
   - title: "[A3] InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion"
-    authors: "<b>Hoiyeong Jin*</b>, Hyojin Jang*, Jeongho Kim*, Junha Hyung, Kinam Kim, Dongjin Kim, Huijin choi, Hyeonji Kim, Jaegul Choo"
+    authors: "<b>Hoiyeong Jin*</b>, Hyojin Jang*, Jeongho Kim*, Junha Hyung, Kinam Kim, Dongjin Kim, Huijin Choi, Hyeonji Kim, Jaegul Choo"
     venue: "Under Review, 2025."
     paper_pdf: ""
     code: ""
@@ -9,7 +9,7 @@ papers:
     selected: y
 
   - title: "[A2] Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation"
-    authors: "Min-JungKim*, Jeongho Kim*, <b>Hoiyeong Jin</b>, Junha Hyung, Jaegul Choo"
+    authors: "Min-Jung Kim*, Jeongho Kim*, <b>Hoiyeong Jin</b>, Junha Hyung, Jaegul Choo"
     venue: "Under Review, 2025."
     paper_pdf: ""
     code: ""
