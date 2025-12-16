@@ -1,5 +1,29 @@
 papers:
 
+  - title: "[A3] InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion"
+    authors: "<b>Hoiyeong Jin</b>, Hyojin Jang, Jeongho Kim, Junha Hyung, Kinam Kim, Dongjin Kim, Huijin choi, Hyeonji Kim, Jaegul Choo"
+    venue: "ArXiv, 2025."
+    paper_pdf: ""
+    code: ""
+    thumbnail: "/assets/publications/teaser.pdf"
+    selected: y
+
+  - title: "[A2] Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation"
+    authors: "Min-JungKim*, Jeongho Kim*, <b>Hoiyeong Jin</b>, Junha Hyung, Jaegul Choo"
+    venue: "ArXiv, 2025."
+    paper_pdf: ""
+    code: ""
+    thumbnail: "/assets/publications/FreeCam.mp4"
+    selected: y
+
+  - title: "[A1] ACG: Action Coherence Guidance for Flow-based VLA models"
+    authors: "Minho Park*, Kinam Kim*, Junha Hyung, Hyojin Jang, <b>Hoiyeong Jin</b>, Jooyeol Yun, Hojoon Lee, Jaegul Choo"
+    venue: "ArXiv, 2025."
+    paper_pdf: ""
+    code: ""
+    thumbnail: "/assets/publications/icra_2025_acg.png"
+    selected: y
+
   - title: "[C2] PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask"
     authors: "Jeongho Kim*, <b>Hoiyeong Jin</b>*, Sunghyun Park, Jaegul Choo"
     venue: "Proceedings of the ieee/cvf international conference on computer vision (ICCV), 2025."
