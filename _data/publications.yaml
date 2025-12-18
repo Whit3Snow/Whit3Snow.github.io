@@ -25,7 +25,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2506.09229"
     code: ""
     project_page: "https://crepavideo.github.io/"
-    thumbnail: "/assets/publications/2025_Neurips/teaser6.pdf"
+    thumbnail: "/assets/publications/2025_Neurips/teaser.png"
     selected: y
 
   - title: "[C2] Zero-Shot Head Swapping in Real-World Scenarios"
