@@ -25,14 +25,14 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2506.09229"
     code: ""
     project_page: "https://crepavideo.github.io/"
-    thumbnail: ""
+    thumbnail: "/assets/publications/2025_Neurips/teaser6.pdf"
     selected: y
 
   - title: "[C2] Zero-Shot Head Swapping in Real-World Scenarios"
     authors: "Taewoong Kang*, Sohyun Jeong*, <b>Hyojin Jang*</b>, Jaegul Choo"
     venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025, Nashville TN, USA. (Acceptance Rate: 22.1%)"
     paper_pdf: "https://arxiv.org/abs/2503.00861"
-    thumbnail: ""
+    thumbnail: "/assets/publications/2025_CVPR/teaser.png"
     selected: y
 
   - title: "[C1] SurFhead: Affine Rig Blending for Geometrically Accurate 2D Gaussian Surfel Head Avatars"
@@ -41,21 +41,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2410.11682"
     code: "https://github.com/summertight/SurFhead_repo"
     project_page: "https://keh0t0.github.io/SURFHEAD_projectpage/"
-    thumbnail: ""
+    thumbnail: "/assets/publications/2025_ICLR/teaser.png"
     selected: y
     
-  # - title: "[C2] PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask"
-  #   authors: "Jeongho Kim*, <b>Hoiyeong Jin</b>*, Sunghyun Park, Jaegul Choo"
-  #   venue: "Proceedings of the ieee/cvf international conference on computer vision (ICCV), 2025."
-  #   paper_pdf: "https://arxiv.org/abs/2412.16978"
-  #   code: "https://github.com/rlawjdghek/PromptDresser"
-  #   thumbnail: "/assets/publications/2025_ICCV/thumb.png"
-  #   selected: y
-
-  # - title: "[C1] Descanning: From scanned to the original images with a color correction diffusion model"
-  #   authors: "Junghun Cha, Ali Haider, Seoyun Yang, <b>Hoiyeong Jin</b>, Subin Yang, AFM Shahab Uddin, Jaehyoung Kim, Soo Ye Kim, Sung-Ho Bae"
-  #   venue: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024."
-  #   paper_pdf: "https://arxiv.org/abs/2402.05350"
-  #   code: "https://github.com/jhcha08/Descanning"
-  #   thumbnail: "/assets/publications/2024_AAAI/thumb.png"
-  #   selected: y
