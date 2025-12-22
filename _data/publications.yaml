@@ -11,7 +11,7 @@ papers:
 
 
   - title: "[A2] ACG: Action Coherence Guidance for Flow-based VLA models"
-    authors: "Minho Park*, Kinam Kim*, Junha Hyung, Hyojin Jang, <b>Hoiyeong Jin</b>, Jooyeol Yun, Hojoon Lee, Jaegul Choo"
+    authors: "Minho Park*, Kinam Kim*, Junha Hyung, <b>Hyojin Jang</b>, Hoiyeong Jin, Jooyeol Yun, Hojoon Lee, Jaegul Choo"
     venue: "Under Review, 2025."
     paper_pdf: "https://arxiv.org/abs/2510.22201"
     code: "https://github.com/davian-robotics/ACG"
