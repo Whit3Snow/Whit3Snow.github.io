@@ -3,8 +3,9 @@ papers:
   - title: "[A3] InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion"
     authors: "Hoiyeong Jin*, <b>Hyojin Jang*</b>, Jeongho Kim*, Junha Hyung, Kinam Kim, Dongjin Kim, Huijin Choi, Hyeonji Kim, Jaegul Choo"
     venue: "Under Review, 2025."
-    paper_pdf: ""
-    code: ""
+    paper_pdf: "https://arxiv.org/pdf/2512.15603"
+    code: "https://github.com/myyzzzoooo/InsertAnywhere"
+    project_page: "https://myyzzzoooo.github.io/InsertAnywhere/"
     thumbnail: "/assets/publications/2026_CVPR/VOI/teaser.png"
     selected: y
 
