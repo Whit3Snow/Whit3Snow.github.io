@@ -1,47 +1,73 @@
 papers:
 
-  - title: "[A3] InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion"
-    authors: "Hoiyeong Jin*, <b>Hyojin Jang*</b>, Jeongho Kim*, Junha Hyung, Kinam Kim, Dongjin Kim, Huijin Choi, Hyeonji Kim, Jaegul Choo"
-    venue: "Under Review, 2025."
-    paper_pdf: "https://arxiv.org/pdf/2512.15603"
-    code: "https://github.com/myyzzzoooo/InsertAnywhere"
-    project_page: "https://myyzzzoooo.github.io/InsertAnywhere/"
-    thumbnail: "/assets/publications/2026_CVPR/VOI/teaser.png"
+  - title: "[U1] Unified Latents for World Action Model"
+    authors: "Junha Hyung*, <b>Hyojin Jang*</b>, Jaegul Choo"
+    venue: "Under Review, 2026."
+    paper_pdf: ""
+    code: ""
+    project_page: ""
+    thumbnail: ""
     selected: y
 
+  - title: "[C6] 3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance"
+    authors: "Dongyoon Hwang*, Byungkun Lee*, Dongjin Kim*, <b>Hyojin Jang</b>, Hoiyeong Jin, Jueun Mun, Minho Park, Hojoon Lee, Hyunseung Kim, Jaegul Choo"
+    venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026."
+    paper_pdf: "https://arxiv.org/abs/2606.31329"
+    code: "https://github.com/DAVIAN-Robotics/3D_HAMSTER"
+    project_page: "https://davian-robotics.github.io/3D_HAMSTER/"
+    thumbnail: "/assets/publications/2026_IROS/teaser.mp4"
+    selected: y
 
-  - title: "[A2] ACG: Action Coherence Guidance for Flow-based VLA models"
+  - title: "[C5] ACG: Action Coherence Guidance for Flow-based VLA models"
     authors: "Minho Park*, Kinam Kim*, Junha Hyung, <b>Hyojin Jang</b>, Hoiyeong Jin, Jooyeol Yun, Hojoon Lee, Jaegul Choo"
-    venue: "Under Review, 2025."
+    venue: "IEEE International Conference on Robotics and Automation (ICRA), 2026."
     paper_pdf: "https://arxiv.org/abs/2510.22201"
     code: "https://github.com/davian-robotics/ACG"
     project_page: "https://davian-robotics.github.io/ACG/"
     thumbnail: "/assets/publications/2026_ICRA/icra_2025_acg.png"
     selected: y
 
+  - title: "[C4] InsertAnywhere: Geometrically Grounded and Optics-Aware Video Object Insertion"
+    authors: "Hoiyeong Jin*, <b>Hyojin Jang*</b>, Junha Hyung*, Jeongho Kim, Kinam Kim, Dongjin Kim, Huijin Choi, Hyunji Kim, Jaegul Choo"
+    venue: "European Conference on Computer Vision (ECCV), 2026."
+    paper_pdf: "https://arxiv.org/abs/2512.17504"
+    code: "https://github.com/myyzzzoooo/InsertAnywhere"
+    project_page: "https://myyzzzoooo.github.io/InsertAnywhere/"
+    thumbnail: "/assets/publications/2026_CVPR/VOI/teaser.png"
+    selected: y
 
-  - title: "[A1] Cross-Frame Representation Alignment for Fine-Tuning Video Diffusion Models"
-    authors: ""
-    venue: "Under Review, 2025."
-    paper_pdf: "https://arxiv.org/abs/2506.09229"
+  - title: "[C3] AHS: Adaptive Head Synthesis via Synthetic Data Augmentations"
+    authors: "Taewoong Kang*, <b>Hyojin Jang*</b>, Sohyun Jeong*, Seunggi Moon, Gihwi Kim, Hoon Jin Jung, Jaegul Choo"
+    venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+    paper_pdf: "https://arxiv.org/abs/2604.15857"
     code: ""
-    project_page: "https://crepavideo.github.io/"
-    thumbnail: "/assets/publications/2025_Neurips/teaser.png"
+    project_page: "https://keh0t0.github.io/AHS/"
+    thumbnail: "/assets/publications/2026_CVPR/AHS/teaser.jpg"
     selected: y
 
   - title: "[C2] Zero-Shot Head Swapping in Real-World Scenarios"
     authors: "Taewoong Kang*, Sohyun Jeong*, <b>Hyojin Jang*</b>, Jaegul Choo"
-    venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025, Nashville TN, USA. (Acceptance Rate: 22.1%)"
+    venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025, Nashville TN, USA."
     paper_pdf: "https://arxiv.org/abs/2503.00861"
+    code: ""
+    project_page: ""
     thumbnail: "/assets/publications/2025_CVPR/teaser.png"
     selected: y
 
-  - title: "[C1] SurFhead: Affine Rig Blending for Geometrically Accurate 2D Gaussian Surfel Head Avatars"
+  - title: "[C1] SurFhead: Affine Rig Blending for Geometrically Accurate 2D Gaussian Surfel-based Head Avatars"
     authors: "Jaeseong Lee*, Taewoong Kang*, Marcel C. Bühler, Min-Jung Kim, Sungwon Hwang, Junha Hyung, <b>Hyojin Jang</b>, Jaegul Choo"
-    venue: "The International Conference on Learning Representations (ICLR), 2025, Singapore."
+    venue: "The Thirteenth International Conference on Learning Representations (ICLR), 2025, Singapore."
     paper_pdf: "https://arxiv.org/abs/2410.11682"
     code: "https://github.com/summertight/SurFhead_repo"
     project_page: "https://keh0t0.github.io/SURFHEAD_projectpage/"
     thumbnail: "/assets/publications/2025_ICLR/teaser.png"
     selected: y
-    
+
+  - title: "[P1] Cross-Frame Representation Alignment for Fine-Tuning Video Diffusion Models"
+    authors: "Sungwon Hwang*, <b>Hyojin Jang*</b>, Kinam Kim, Minho Park, Jaegul Choo"
+    venue: "arXiv preprint, 2025."
+    paper_pdf: "https://arxiv.org/abs/2506.09229"
+    code: ""
+    project_page: "https://crepavideo.github.io/"
+    thumbnail: "/assets/publications/2025_Neurips/teaser.png"
+    selected: y

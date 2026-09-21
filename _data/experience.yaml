@@ -1,10 +1,15 @@
 experiences:
+  - place: "Researcher"
+    time: "Mar. 2025 - Current"
+    title: '<a href="https://davian-robotics.github.io/">DAVIAN Robotics</a> (Vision-Language-Action, World Action Models)'
+    category: "researcher"
+
   - place: "Undergraduate Researcher"
     time: "May. 2024 - Feb. 2025"
     title: '<a href="https://davian.kaist.ac.kr/">Data and Visual Analytics Lab (DAVIAN Lab)</a> (advised by <a href="https://sites.google.com/site/jaegulchoo/">Prof. Jaegul Choo</a>)'
     category: "undergraduate researcher"
 
-  - place: "Undergraduate Researcher"
-    time: "Mar. 2021 - Sep. 2023"
-    title: '<a href="https://mlvc.khu.ac.kr/">Machine Learning and Visual Computing Lab (MLVC Lab)</a> (advised by <a href="https://scholar.google.co.kr/citations?user=EULut5oAAAAJ&hl=ko">Prof. Sungho Bae</a>)'
-    category: "undergraduate researcher"
+  - place: "AI Research Intern"
+    time: "Sep. 2022 - Feb. 2023"
+    title: 'NC Soft Research'
+    category: "intern"
