@@ -62,12 +62,3 @@ papers:
     project_page: "https://keh0t0.github.io/SURFHEAD_projectpage/"
     thumbnail: "/assets/publications/2025_ICLR/teaser.png"
     selected: y
-
-  - title: "[P1] Cross-Frame Representation Alignment for Fine-Tuning Video Diffusion Models"
-    authors: "Sungwon Hwang*, <b>Hyojin Jang*</b>, Kinam Kim, Minho Park, Jaegul Choo"
-    venue: "arXiv preprint, 2025."
-    paper_pdf: "https://arxiv.org/abs/2506.09229"
-    code: ""
-    project_page: "https://crepavideo.github.io/"
-    thumbnail: "/assets/publications/2025_Neurips/teaser.png"
-    selected: y
