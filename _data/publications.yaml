@@ -1,5 +1,15 @@
 papers:
 
+
+  - title: "[U2] CUTSTITCH: Offline Generative Trajectory Stitching for Robot Learning"
+    authors: "Junha Hyung*, <b>Hyojin Jang*</b>, Hoiyeong Jin, Minho Park, Jaegul Choo"
+    venue: "Under Review, 2026."
+    paper_pdf: "/assets/publications/2026_CVPR/cutstitch_under_review.pdf"
+    code: ""
+    project_page: ""
+    thumbnail: ""
+    selected: y
+
   - title: "[U1] Unified Latents for World Action Model"
     authors: "Junha Hyung*, <b>Hyojin Jang*</b>, Jaegul Choo"
     venue: "Under Review, 2026."
