@@ -9,15 +9,6 @@ papers:
     thumbnail: "/assets/publications/cutstitch_teaser.png"
     selected: y
 
-  - title: "[U1] Unified Latents for World Action Model"
-    authors: "Junha Hyung*, <b>Hyojin Jang*</b>, Jaegul Choo"
-    venue: "Under Review, 2026."
-    paper_pdf: ""
-    code: ""
-    project_page: ""
-    thumbnail: ""
-    selected: y
-
   - title: "[C6] 3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance"
     authors: "Dongyoon Hwang*, Byungkun Lee*, Dongjin Kim*, <b>Hyojin Jang</b>, Hoiyeong Jin, Jueun Mun, Minho Park, Hojoon Lee, Hyunseung Kim, Jaegul Choo"
     venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026."
